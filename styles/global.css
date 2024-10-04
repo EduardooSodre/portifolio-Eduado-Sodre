@@ -1,0 +1,53 @@
+/* purgecss start ignore */
+@tailwind base;
+@tailwind components;
+/* purgecss end ignore */
+@tailwind utilities;
+
+body {
+  @apply font-sans;
+}
+
+body {
+  background: white;
+  color: #15202b;
+}
+
+@media (prefers-color-scheme: light) {
+  body {
+    background: white;
+    color: #2f333f;
+  }
+
+  ::selection {
+    background-color: #0af5f4;
+    color: white;
+  }
+
+  .bg-default {
+    background: white;
+  }
+
+  .bg-accent {
+    background: #f9fcfc;
+  }
+}
+
+@media (prefers-color-scheme: dark) {
+  body {
+    background: #15202b;
+    color: white;
+  }
+  ::selection {
+    background-color: #0af5f4;
+    color: black;
+  }
+
+  .bg-default {
+    background: #15202b;
+  }
+
+  .bg-accent {
+    background: #243447;
+  }
+}
