@@ -19,8 +19,6 @@ const Navbar: React.FC = () => {
           {[
             { label: "About Me", section: "about-me" },
             { label: "Projects", section: "personal-projects" },
-            { label: "Experience", section: "professional-projects" },
-            { label: "Blog", section: "blog-section" },
             { label: "Contact", section: "contact" },
           ].map((item, index: number) => {
             const { label, section } = item;

@@ -1,12 +1,9 @@
 import {
   DiReact,
-  DiSass,
   DiCss3,
   DiHtml5,
   DiNodejsSmall,
   DiMongodb,
-  DiMysql,
-  DiApple,
   DiFirebase,
   DiAngularSimple,
 } from "react-icons/di";
