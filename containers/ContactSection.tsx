@@ -41,7 +41,7 @@ const INITIAL_STATE = {
   subject: "",
   message: "",
   replyTo: "@",
-  accessKey: "506894857786-6igqa3jihf1ukb1cagvkaf1q7fjhjtkn.apps.googleusercontent.com",
+  accessKey: "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",
 };
 
 const Alert: React.FC<AlertProps> = ({ message, type }) => {
