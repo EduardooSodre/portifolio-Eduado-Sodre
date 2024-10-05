@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from "react";
+import React, { useState } from "react";
 import Container from "../components/Container";
 import SectionTitle from "../components/SectionTitle";
 import PersonalCard from "../components/PersonalCard";
@@ -41,7 +41,7 @@ const INITIAL_STATE = {
   subject: "",
   message: "",
   replyTo: "@",
-  accessKey: "mlsn.9c5492cf082b3f0d5f105b291c44b426cdb53f64cde81867103ea8aa4c94a3ad",
+  accessKey: "506894857786-6igqa3jihf1ukb1cagvkaf1q7fjhjtkn.apps.googleusercontent.com",
 };
 
 const Alert: React.FC<AlertProps> = ({ message, type }) => {
